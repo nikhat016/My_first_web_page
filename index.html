@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang=en>
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <meta name="description"
+content="Omnifood is a premium food delivery service with the mission to bring affordable and healthy mealsto as many people as possible.">        
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -10,7 +12,16 @@
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
      <link rel="stylesheet" type="text/css" href="resources/css/queries.css">   
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">    
-        <title>Omnifood</title>   
+        <title>Omnifood</title> 
+        <link rel="apple-touch-icon" sizes="180x180" href="/resources/Favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/resources/Favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/resources/Favicons/favicon-16x16.png">
+<link rel="manifest" href="/resources/Favicons/site.webmanifest">
+<link rel="mask-icon" href="/resources/Favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/resources/Favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/resources/Favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
     </head>
         <body>
             <header>
@@ -18,13 +29,13 @@
                 <div class="row">
                     <img src="resources/images/logo-white.png" alt="Omnifood logo" class="logo">
                     <img src="resources/images/logo.png" alt="Omnifood logo" class="logo-black">
-                    <ul class="main-nav">
+                    <ul class="main-nav js--main-nav">
                     <li> <a href="#features">Food delivery</a></li>
                     <li> <a href="#works">How it works</a></li>
                     <li> <a href="#cities">Our cities</a></li>
                     <li> <a href="#plans">Sign Up</a></li>
-                        
                     </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
                     </div>
                 </nav>
             <div class="hero-text-box">
@@ -223,19 +234,19 @@
                 <div class="col span-1-of-3">
                 <blockquote>
                 Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                    <cite><img src="resources/images/customer-1.jpg">Alberto Duncan</cite> 
+                    <cite><img src="resources/images/customer-1.jpg" alt="customer1-photo">Alberto Duncan</cite> 
                 </blockquote>
             </div>
                 <div class="col span-1-of-3">
                 <blockquote>
                 Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                    <cite><img src="resources/images/customer-2.jpg">Joana Silva</cite> 
+                    <cite><img src="resources/images/customer-2.jpg" alt="customer2-photo">Joana Silva</cite> 
                 </blockquote>
             </div>
                 <div class="col span-1-of-3">
                 <blockquote>
                 I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                    <cite><img src="resources/images/customer-3.jpg">Milton Chapman</cite> 
+                    <cite><img src="resources/images/customer-3.jpg" alt="customer3-photo">Milton Chapman</cite> 
                 </blockquote>
             </div>
                     </div>
@@ -335,10 +346,10 @@
                       </div>
                       <div class="col span-2-of-3">
                       <select name="find-us" id="find-us">
-                          <option values="friends">Friends</option>
-                          <option values="search">Search Engine</option>
-                          <option values="ad">Advertisement</option>
-                          <option values="other">Other</option>
+                          <option value="friends">Friends</option>
+                          <option value="search">Search Engine</option>
+                          <option value="ad">Advertisement</option>
+                          <option value="other">Other</option>
                           </select>
                       </div>
                     </div>
@@ -347,7 +358,7 @@
                       <label>News letter</label>
                       </div>
                       <div class="col span-2-of-3">
-                      <input type="checkbox" name="news" id="email" checked> Yes,Please
+                      <input type="checkbox" name="news" id="news" checked> Yes,Please
                       </div>
                     </div>  
                      <div class="row">

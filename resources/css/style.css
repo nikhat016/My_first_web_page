@@ -204,7 +204,7 @@ header{
 .main-nav{
     float: right;
     list-style: none;
-    margin-top: 60px;
+    margin-top: 55px;
 }
 .main-nav li{
     display: inline-block;
@@ -228,6 +228,19 @@ header{
 {
     border-bottom:2px solid #e67e22;
 }
+/*Mobile navi*/
+.mobile-nav-icon{
+    float:right;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: #fff;
+    
+}
+
 /*STICKT NAV*/
 .sticky{
     position: fixed;
@@ -568,10 +581,6 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-
-
-
-
 
 /* ----------------------------------------------- */
 /* Animations */
